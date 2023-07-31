@@ -1,0 +1,410 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+body{
+    background-color: #000000;
+}
+
+.top-strip{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 100px;
+}
+
+.top-strip i{
+    font-size: xx-large;
+    padding-bottom: 15px;
+}
+
+.top-strip .margin{
+    width: 55%;
+}
+
+.top-strip button{
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    border: none;
+    background-color: #1c1816;
+    color: #ffffff;
+    padding: 5px 25px;
+}
+
+.top-strip .box1 img{
+    padding-top: 20px;
+    height: 50px;
+    width: 80px;
+}
+
+.top-strip .box2 img, .box3 img{
+    height: 25px;
+    width: 25px;
+}
+
+.top-strip .box4 img{
+    height: 70px;
+    width: 50px;
+}
+
+.top-strip .box5 button{
+    background-color: #ea002a;
+}
+
+.end .strip .flex:hover, .end .content img:hover, .last div:hover, .top-strip .box1:hover, .logo:hover, .top-strip .box2 button:hover, .mid .card:hover, .top-strip .box3 button:hover, .top-strip .box4:hover, .top-strip .box5 button:hover, .container button:hover{
+    cursor: pointer;
+} 
+
+.main-box .centre{
+    margin-left: 25vw;
+}
+
+.main-box img{
+    width: 100%;
+    background-size: cover;
+}
+
+.main-box button{
+    margin-top: 10px;
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    background-color: #ea002a;
+    padding: 11px 28%;
+    font-weight: 800;
+}
+
+.hero{
+    margin: 30px 0;
+}
+
+.panel1{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 5vw;
+    justify-content: space-evenly;
+}
+
+.hero .title{
+    margin: 0 6.8vw;
+}
+
+.hero .title button{
+    border: none;
+    border-bottom: 3px solid #ea002a;
+    letter-spacing: -2px;
+    font-weight: 600;
+    font-size: x-large;
+    background: transparent;
+    color: #ffffff;
+}
+
+.hero .box{
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 100px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    margin: 55px 25px;
+    padding-left: 8px;
+    background-color: #1c1816;
+    height: 26vh;
+    width: 14vw;
+    color: #ffffff;
+}
+
+.hero .box img{
+    background-size: cover;
+    height: 22vh;
+    width: 12vw;
+}
+
+.hero .panel1 .box p{
+    font-weight: 500;
+    text-align: center;
+    margin-top: -5px;
+    border-right: #ea002a;
+}
+
+.hero .panel1 .box:hover{
+    cursor: pointer;
+    transition: 1s;
+    margin-top: -1px;
+}
+
+.hero .card{
+    display: block;
+    background-color: #1c1816;
+    color: #ffffff;
+    padding: 8px;
+    border-radius: 14px;
+    overflow: hidden;
+    height: 460px;
+    width: 315px;
+}
+
+.hero .mid{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 8vh 6.8vw;
+}
+
+.hero .card h2{
+    letter-spacing: -2px;
+}
+
+.hero .card img{
+    background-size: cover;
+    height: 260px;
+    width: 300px;
+}
+
+.hero .card .part{
+    text-align: right;
+}
+
+.hero .card .part i{
+    color: #ea002a;
+    font-size: x-large;
+}
+
+.hero .card .part .upper{
+    margin: -30px 45%;
+    font-size: xx-large;
+}
+
+.hero .card .part .lower{
+    margin: 25px 0;
+}
+
+.hero .card h2, .hero .card p{
+    margin: 8px 0;
+}
+
+.hero .card img:hover{
+    margin: 0 0 -14px -14px;
+    cursor: pointer;
+    zoom: 1.08;
+}
+
+.mid .card button{
+    border: none;
+    border-radius: 8px;
+    padding: 5px 14px;
+    color: #ffffff;
+    background-color: #ea002a;
+}
+
+.mid .card button:hover{
+    border: 2px solid #ea002a;
+    background-color: #ffffff;
+    color: #ea002a;
+}
+
+.mid .card .baseline{
+    align-items: center;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.panels{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 35px;
+}
+
+.panels img, .panels .alpha .new{
+    margin: 10px;
+    height: 56vh;
+    width: 40vw;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.panels .alpha .new img{
+    height: 160px;
+    width: 280px;
+}
+
+.panels .alpha .new{
+    background-color: #1c1816;
+}
+
+.panels .alpha .new img{
+    margin-left: 28%;
+    margin-right: 28%;
+}
+
+.panels .alpha .new h2{
+    color: #ffffff;
+    text-align: center;
+    justify-content: center;
+    font-weight: 100;
+} 
+
+.panels .alpha .new button{
+    border: none;
+    background-color: #ea002a;
+    padding: 11px 24px;
+    border-radius: 5px;
+    margin-left: 35%;
+    margin-right: 35%;
+    font-weight: 3200;
+    color: #ffffff;
+}
+
+.end{
+    background-color: #1c1816;
+}
+
+.end .strip{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px 6.8vw;
+}
+
+.end .strip .flex{
+    height: 45px;
+    width: 50px;
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 50%;
+    margin: 8px;
+}
+
+.end .strip .logo{
+    margin: 15px;
+}
+
+.end .strip .flex i{
+    padding-top: 14%;
+    font-size: xx-large;
+}
+
+.end .content{
+    display: flex;
+    margin: 1vh 6.8vw;
+    justify-content: space-between;
+}
+
+.end .content p{
+    color: #ffffff;
+    font-size: larger;
+    font-weight: 400;
+    margin: 20px 35px;
+}
+
+.last{
+    display: flex;
+    margin: 1vh 6.8vw;
+    justify-content: space-between;
+    color: #ffffff;
+    font-size: medium;
+    font-weight: 300;
+}
+
+.end p:hover{
+    cursor: pointer;
+    color: #ea002a;
+}
+
+.last .track{
+    display: flex;
+}
+
+.last .box span{
+    color: #ea002a;
+    margin-bottom: 10vh;
+    font-weight: 600;
+    letter-spacing: -2px;
+}
+
+.last .box p{
+    margin-top: 4px;
+    text-decoration: underline;
+}
+
+
+@media screen and (max-width: 520px){
+    body{
+        overflow-x: hidden;
+    }
+
+    .top-strip .box1{
+        display: flex;
+    }
+
+    .top-strip .box2 button, .top-strip .box3 button{
+        margin: 0 4px;
+        padding: 5px 10px;
+    }
+
+    .container .main-box img{
+        height: 300px;
+    }
+
+    .container .main-box .centre button{
+        margin: 16px -4%;
+    }
+
+    .hero{
+        margin: 1vmin;
+    }
+
+    .hero .top-one{
+        margin-top: 45px;
+    }
+
+    .hero .panel1 .box{
+        width: 38%;
+    }
+
+    .hero .panel1 .box img{
+        margin-left: -10px;
+        width: 34vw;
+    }
+
+    .hero .mid{
+        display: block;
+        justify-content: center;
+    }
+
+    .hero .mid .card{
+        margin: 22px 12%;
+        justify-content: center;
+    }
+
+    .panels img, .panels .alpha .new{
+        width: 100%;
+        height: 380px;
+        margin: 0 0 10px;
+    }
+
+    .end .content{
+        font-size: small;
+    }
+
+    .panels .alpha .new img{
+        margin: 18px 16% 0;
+    }
+
+    .panels .alpha .also-alpha button{
+        margin: 12px 28%;
+    }
+
+    .end .last{
+        font-size: small;
+        margin: 120px 15px;
+    }
+
+    .content .box4{
+        margin: 280px 15%;
+        position: absolute;
+    }
+}
